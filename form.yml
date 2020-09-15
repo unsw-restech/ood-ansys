@@ -11,8 +11,8 @@ attributes:
     widget: "number_field"
     label: "Number of cores"
     help: |
-      Number of cores on node type (4 GB per core unless requesting whole
-      node). Leave blank if requesting full node.
+      Number of cores on node (8 GB per core unless requesting whole
+      node). 
     min: 0  # This is treated as requesting the max allowable
     max: 48  # This will be updated by form.js
     step: 1
