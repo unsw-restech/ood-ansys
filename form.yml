@@ -11,8 +11,7 @@ attributes:
     widget: "number_field"
     label: "Number of cores"
     help: |
-      Number of cores on node (8 GB per core unless requesting whole
-      node). 
+      Number of cores on node 8 GB per core. 
     min: 0  # This is treated as requesting the max allowable
     max: 48  # This will be updated by form.js
     step: 1
@@ -27,7 +26,7 @@ attributes:
       - [ "2020R1", "ansys/2020r1" ]
       - [ "2019R2", "ansys/2019r2" ]
       - [ "2019R1", "ansys/2019r1" ]
-      - [ "19.2",   "ansys/19.2"   ]
-      - [ "19.1",   "ansys/19.1"   ]
-      - [ "edt 19.1",   "ansysedt/19.1"   ]
-      - [ "17.2",   "ansys/17.2"   ]
+      - [ "19.2", "ansys/19.2" ]
+      - [ "19.1", "ansys/19.1" ]
+      - [ "edt 19.1", "ansysedt/19.1" ]
+      - [ "17.2", "ansys/17.2" ]
