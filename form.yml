@@ -36,7 +36,7 @@ attributes:
     help: "This defines the version of ANSYS you want to load."
     options:
       - [ "2020R1", "ansys/2020r1" ]
-      - [ "2019R2", "ansys/2019r2" ]
+      - [ "2019R3", "ansys/2019r3" ]
       - [ "2019R1", "ansys/2019r1" ]
       - [ "19.2", "ansys/19.2" ]
       - [ "19.1", "ansys/19.1" ]
