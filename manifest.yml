@@ -4,9 +4,9 @@ category: Interactive Apps
 subcategory: GUIs
 role: batch_connect
 description: |
-  This app will launch an [ANSYS Workbench] within a [Turbo VNC] server on the
-  [Katana cluster].
+  This app will launch [ANSYS Workbench] on a compute node in the [Katana
+  cluster].  Once your session starts and you are connected via the
+  Launch button, you may need to manually maximise the application.
 
   [ANSYS Workbench]: https://www.ansys.com/
-  [Turbo VNC]: https://www.turbovnc.org/
-  [Katana cluster]: https://unsw-restech.github.io/restech-docs/
+  [Katana cluster]: https://unsw-restech.github.io/restech-docs

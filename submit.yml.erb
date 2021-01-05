@@ -4,11 +4,10 @@
 -%>
 ---
 batch_connect:
-  template: "vnc"
+  template: vnc
 script:
-  job_name: "ansys_ood_test"                                                                                                                                          
+  job_name: "ansys-kod"
   native:
     - "-l"
     - "select=1:ncpus=<%= ncpus %>:mem=<%= mem %>gb"
   email: "<%= ENV['USER'] %>@unsw.edu.au"
-
