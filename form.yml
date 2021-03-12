@@ -43,6 +43,7 @@ attributes:
     help: >-
       Which version of ANSYS you want to use.
     options:
+      - [ "2021R1",   "ansys/2021r1" ]
       - [ "2020R1",   "ansys/2020r1" ]
       - [ "2019R3",   "ansys/2019r3" ]
       - [ "2019R1",   "ansys/2019r1" ]
